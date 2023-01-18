@@ -1,0 +1,32 @@
+body {
+    display:grid;
+    background-color: lavender;
+    font-family: monospace;
+
+}
+header {
+    display:grid;
+    width: 75%;
+    height: 150px;
+    background-color: skyblue;
+    margin-left: auto;
+    margin-right:auto;
+    grid-template-columns: 75% 25%;
+}
+main {
+    display:grid;
+    margin-left:180px;
+}
+#logo {
+    height:inherit;
+}
+#reviews {
+    display:block;
+
+}
+@media (max-width: 400px) {
+    #reviews {
+        display:none;
+    
+    }
+}
