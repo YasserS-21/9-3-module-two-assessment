@@ -24,9 +24,28 @@ main {
     display:block;
 
 }
+#display-info {
+    padding-bottom:10px;
+    padding-top:0px;
+    display:grid;
+    grid-template-rows: 33% 33% 33%;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+    margin-right:180px;
+    justify-items: center;
+}
+#centerHeader, #titles {
+    margin-left: 450px;
+    margin-right:450px;
+    
+}
+#titles {
+    margin-left: 420px;
+    margin-right:450px
+}
 @media (max-width: 400px) {
     #reviews {
         display:none;
-    
+
     }
-}
+};
